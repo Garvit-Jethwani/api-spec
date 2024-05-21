@@ -1,0 +1,83 @@
+openapi: 3.0.0
+info:
+  title: Credit Card Application API
+  version: 1.0.0
+  description: API for submitting credit card applications
+
+servers:
+  - url: https://api.example.com/v1
+
+paths:
+  /api/creditcard/apply:
+    post:
+      summary: Submit a credit card application
+      description: Submit a credit card application with personal, income, and contact information
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreditCardApplication'
+      responses:
+        '200':
+          description: Application submitted successfully
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Application submitted successfully
+        '400':
+          description: Invalid or missing information
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Error: Invalid or missing information
+
+components:
+  schemas:
+    CreditCardApplication:
+      type: object
+      required:
+        - personalInfo
+        - incomeInfo
+        - contactInfo
+      properties:
+        personalInfo:
+          type: object
+          properties:
+            firstName:
+              type: string
+            lastName:
+              type: string
+            dateOfBirth:
+              type: string
+              format: date
+            ssn:
+              type: string
+        incomeInfo:
+          type: object
+          properties:
+            employmentStatus:
+              type: string
+            annualIncome:
+              type: number
+        contactInfo:
+          type: object
+          properties:
+            email:
+              type: string
+              format: email
+            phoneNumber:
+              type: string
+            address:
+              type: object
+              properties:
+                street:
+                  type: string
+                city:
+                  type: string
+                state:
+                  type: string
+                zipCode:
+                  type: string
