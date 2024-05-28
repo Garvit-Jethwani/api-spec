@@ -1,0 +1,16 @@
+addressId,subscriberId,associatedDocument,startDate,finishDate,orderType,addressChangeFlag,productType,priorityFlag,priorityReason,statusCode,scenario
+17713,"VTAL001","VTT001","2021-05-21T13:00:00","2021-06-04T13:00:00","Instalacao",true,"FTTH",true,"Cliente Diamond",200,success
+17714,"VTAL002","VTT002","2021-05-22T14:00:00","2021-06-05T14:00:00","Retirada",false,"FTTH",false,"Cliente Silver",200,success
+17715,"VTAL003","VTT003","2021-05-23T15:00:00","2021-06-06T15:00:00","RemanejamentoPonto",true,"FTTH",true,"Cliente Gold",200,success
+17716,"VTAL004","VTT004","2021-05-24T16:00:00","2021-06-07T16:00:00","ChamadoTecnico",false,"FTTH",false,"Cliente Bronze",200,success
+17717,"VTAL005","VTT005","2021-05-25T17:00:00","2021-06-08T17:00:00","Instalacao",true,"FTTH",true,"Cliente Platinum",200,success
+-12345,"InvalidSubscriberIdTooLong","InvalidAssociatedDocumentTooLong","InvalidStartDate","InvalidFinishDate","InvalidOrderType",true,"FTTH",true,"InvalidPriorityReasonTooLong",400,"Bad Request"
+-54321,"InvalidSubscriberId","InvalidAssociatedDocument","2022-13-32T25:00:00","2022-13-32T25:00:00","InvalidEnum",true,"FTTH",true,"InvalidPriorityReason",401,Unauthorized
+-98765,"InvalidSubscriberId","InvalidAssociatedDocument","InvalidStartDateTime","InvalidFinishDateTime","InvalidOrderTypeEnum",true,"FTTH",true,"InvalidPriorityReasonTooLong",403,"Forbidden - Scope Not Permitted"
+-56789,"InvalidSubscriberIdTooLong","InvalidAssociatedDocumentTooLong","2022-02-29T24:00:00","2022-02-29T24:00:00","InvalidEnumValue",true,"FTTH",true,"InvalidPriorityReason",404,"Not Found"
+-24680,"InvalidSubscriberId","InvalidAssociatedDocument","InvalidStartDateFormat","InvalidFinishDateFormat","InvalidOrderTypeValue",true,"FTTH",true,"InvalidPriorityReasonTooLong",406,"Not Acceptable"
+-13579,"InvalidSubscriberIdTooLong","InvalidAssociatedDocumentTooLong","2022-04-31T23:59:59","2022-04-31T23:59:59","InvalidOrderTypeEnumValue",true,"FTTH",true,"InvalidPriorityReason",412,"Not Acceptable"
+-97531,"InvalidSubscriberId","InvalidAssociatedDocument","InvalidStartDateTimeFormat","InvalidFinishDateTimeFormat","InvalidEnumOrderType",true,"FTTH",true,"InvalidPriorityReasonTooLong",429,"Too Many Requests - Exceeded Quota"
+-86420,"InvalidSubscriberIdTooLong","InvalidAssociatedDocumentTooLong","2022-06-31T25:00:00","2022-06-31T25:00:00","InvalidOrderTypeValue",true,"FTTH",true,"InvalidPriorityReason",500,"Internal Server Error"
+-75309,"InvalidSubscriberId","InvalidAssociatedDocument","InvalidStartDateValue","InvalidFinishDateValue","InvalidEnumValue",true,"FTTH",true,"InvalidPriorityReasonTooLong",503,"Service Unavailable"
+-64198,"InvalidSubscriberIdTooLong","InvalidAssociatedDocumentTooLong","2022-09-31T24:00:00","2022-09-31T24:00:00","InvalidOrderTypeEnumValue",true,"FTTH",true,"InvalidPriorityReason",504,"Gateway Timeout"
