@@ -1,0 +1,13 @@
+appointmentId,id,reason,statusCode,scenario
+SA-562403,bff13821-73c3-42cc-9327-b05c7df5a67f,"Agendamento para Instalação de Fibra",200,"successful operation"
+"SA-123456","invalid-uuid","Invalid reason with \"quotes\"",400,"Bad Request"
+"SA-789012","not-a-valid-id","Unauthorized access attempt",401,"Unauthorized"
+"SA-345678","12345-not-uuid","Forbidden access",403,"Forbidden - Scope Not Permitted"
+"SA-901234","non-existent-id","Appointment not found",404,"Not Found"
+"SA-567890","unacceptable-format-id","Format not acceptable",406,"Not Acceptable"
+"SA-234567","precondition-failed-id","Failed precondition",412,"Not Acceptable"
+"SA-678901","locked-appointment-id","Cannot modify locked appointment",423,"Locked"
+"SA-012345","quota-exceeded-id","Too many requests made",429,"Too Many Requests - Exceeded Quota"
+"SA-456789","server-error-id","Internal server error occurred",500,"Internal Server Error"
+"SA-890123","service-unavailable-id","Service temporarily unavailable",503,"Service Unavailable"
+"SA-234567","gateway-timeout-id","Gateway timeout occurred",504,"Gateway Timeout"

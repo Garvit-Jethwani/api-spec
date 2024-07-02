@@ -1,0 +1,13 @@
+appointmentReason,appointmentComments,appointmentId,statusCode,scenario
+"Agendamento para Instalação de Fibra","Scheduled installation for fiber optics",SA-562403,200,"successful operation"
+"Invalid Reason","Appointment cancelled",XYZ-123456,400,"Bad Request"
+"Unauthorized Access","Access denied",ABC-789012,401,"Unauthorized"
+"Restricted Appointment","Permission not granted",DEF-345678,403,"Forbidden - Scope Not Permitted"
+"Non-existent Appointment","Appointment not found",GHI-901234,404,"Not Found"
+"Incompatible Format","Data format not accepted",JKL-567890,406,"Not Acceptable"
+"Precondition Failure","Appointment conditions not met",MNO-123456,412,"Not Acceptable"
+"Locked Appointment","Cannot modify appointment",PQR-789012,423,"Locked"
+"Quota Exceeded","Too many appointment requests",STU-345678,429,"Too Many Requests - Exceeded Quota"
+"Server Error","Internal processing error",VWX-901234,500,"Internal Server Error"
+"Service Down","Appointment system unavailable",YZA-567890,503,"Service Unavailable"
+"Timeout Error","Request processing timed out",BCD-123456,504,"Gateway Timeout"
