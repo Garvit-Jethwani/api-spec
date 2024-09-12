@@ -1,0 +1,11 @@
+jetson_uuid,username,clusterId,houseId,statusCode
+1JH2-3KJ4-5L67,JohnDoe,ClusterA,House001,200
+2JH3-4KJ5-6L78,JaneDoe,ClusterB,House002,200
+3JH4-5KJ6-7L89,JimDoe,ClusterC,House003,200
+4JH5-6KJ7-8L90,JillDoe,ClusterD,House004,400
+5JH6-7KJ8-9L01,JackDoe,ClusterE,House005,400
+6JH7-8KJ9-0L12,JerryDoe,ClusterF,House006,500
+7JH8-9KJ0-1L23,JessicaDoe,ClusterG,House007,500
+8JH9-0KJ1-2L34,JuliaDoe,ClusterH,House008,200
+9JH0-1KJ2-3L45,JeremyDoe,ClusterI,House009,200
+0JH1-2KJ3-4L56,JenniferDoe,ClusterJ,House010,400
