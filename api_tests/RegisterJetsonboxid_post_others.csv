@@ -1,0 +1,11 @@
+jetson_uuid,username,clusterId,houseId,statusCode
+1a2b3c4d,JohnDoe,123,456,200
+2b3c4d5e,JaneDoe,234,567,404
+3c4d5e6f,JimDoe,345,678,500
+4d5e6f7g,JackDoe,456,789,200
+5e6f7g8h,JillDoe,567,890,404
+6f7g8h9i,JuneDoe,678,901,500
+7g8h9i0j,JeffDoe,789,012,200
+8h9i0j1k,JerryDoe,890,123,404
+9i0j1k2l,JessicaDoe,901,234,500
+0j1k2l3m,JuliaDoe,012,345,200
