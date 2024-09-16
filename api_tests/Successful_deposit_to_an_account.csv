@@ -1,0 +1,11 @@
+customerId,sourceAccountId,amount,currency,frontImage,backImage
+12345,ACC897,5000,USD,frontImage1.jpg,backImage1.jpg
+23456,ACC998,10000,EUR,frontImage2.jpg,backImage2.jpg
+34567,ACC675,8000,GBP,frontImage3.jpg,backImage3.jpg
+45678,ACC432,6000,JPY,frontImage4.jpg,backImage4.jpg
+56789,ACC123,7000,AUD,frontImage5.jpg,backImage5.jpg
+67890,ACC234,5000,CAD,frontImage6.jpg,backImage6.jpg
+78901,ACC345,9000,CHF,frontImage7.jpg,backImage7.jpg
+89012,ACC456,3000,SEK,frontImage8.jpg,backImage8.jpg
+90123,ACC567,2000,NZD,frontImage9.jpg,backImage9.jpg
+01234,ACC678,1000,SGD,frontImage10.jpg,backImage10.jpg
