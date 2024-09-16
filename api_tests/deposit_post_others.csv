@@ -1,0 +1,11 @@
+customerId,sourceAccountId,amount,currency,frontImage,backImage
+1045300,1042345,1042222,USD,https://google.com,https://google.com
+1045301,1042346,1042223,EUR,https://yahoo.com,https://yahoo.com
+1045302,1042347,1042224,GBP,https://bing.com,https://bing.com
+1045303,1042348,1042225,AUD,https://duckduckgo.com,https://duckduckgo.com
+1045304,1042349,1042226,CAD,https://github.com,https://github.com
+1045305,1042350,1042227,JPY,https://stackoverflow.com,https://stackoverflow.com
+1045306,1042351,1042228,CHF,https://linkedin.com,https://linkedin.com
+1045307,1042352,1042229,CNY,https://facebook.com,https://facebook.com
+1045308,1042353,1042230,SEK,https://twitter.com,https://twitter.com
+1045309,1042354,1042231,NZD,https://instagram.com,https://instagram.com
