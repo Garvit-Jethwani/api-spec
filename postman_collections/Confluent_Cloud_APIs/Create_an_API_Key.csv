@@ -1,0 +1,10 @@
+spec,statusCode,scenario
+CI kafka access key,202,Successful responses: Accepted
+CI kafka access key,400,Client error responses: Bad Request
+CI kafka access key,401,Client error responses: Unauthorized
+CI kafka access key,402,Client error responses: Payment Required
+CI kafka access key,403,Client error responses: Forbidden
+CI kafka access key,409,Client error responses: Conflict
+CI kafka access key,422,Client error responses: Unprocessable Entity
+CI kafka access key,429,Client error responses: Too Many Requests
+CI kafka access key,500,Server error responses: Internal Server Error

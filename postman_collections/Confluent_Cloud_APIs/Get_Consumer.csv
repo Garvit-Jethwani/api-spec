@@ -1,0 +1,7 @@
+cluster_id,consumer_group_id,consumer_id,statusCode,scenario
+cluster-1,consumer-group-1,consumer-1,200,Successful responses: OK
+cluster-1,consumer-group-1,consumer-1,400,Client error responses: Bad Request
+cluster-1,consumer-group-1,consumer-1,401,Client error responses: Unauthorized
+cluster-1,consumer-group-1,consumer-1,403,Client error responses: Forbidden
+cluster-1,consumer-group-1,consumer-1,429,Client error responses: Too Many Requests
+cluster-1,consumer-group-1,consumer-1,500,Server error responses: Internal Server Error

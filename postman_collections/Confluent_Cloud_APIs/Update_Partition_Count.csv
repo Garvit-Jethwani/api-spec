@@ -1,0 +1,7 @@
+cluster_id,topic_name,partitions_count,statusCode,scenario
+cluster-1,topic-1,1,200,Successful responses: OK
+cluster-1,topic-2,1,400,Client error responses: Bad Request
+cluster-3,topic-3,1,401,Client error responses: Unauthorized
+cluster-4,topic-4,1,403,Client error responses: Forbidden
+cluster-5,topic-5,1,429,Client error responses: Too Many Requests
+cluster-6,topic-6,1,500,Server error responses: Internal Server Error

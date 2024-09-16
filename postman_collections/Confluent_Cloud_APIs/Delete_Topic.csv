@@ -1,0 +1,8 @@
+cluster_id,topic_name,statusCode,scenario
+DLZ-1,ComputePool,204,Successful responses: No Content
+DLZ-2,ComputePool,400,Client error responses: Bad Request
+DLZ-3,ComputePool,401,Client error responses: Unauthorized
+DLZ-4,ComputePool,403,Client error responses: Forbidden
+DLZ-5,ComputePool,404,Client error responses: Not Found
+DLZ-6,ComputePool,429,Client error responses: Too Many Requests
+DLZ-7,ComputePool,500,Server error responses: Internal Server Error

@@ -1,0 +1,10 @@
+id,display_name,statusCode,scenario
+dlz-f3a90de,prod-finance01,200,Successful responses: OK
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,Invalid Filter,400,Client error responses: Bad Request
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,Authentication Required,401,Client error responses: Unauthorized
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,Kafka Clusters Per Org Quota Exceeded,402,Client error responses: Payment Required
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,User Access Unauthorized,403,Client error responses: Forbidden
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,Not Found,404,Client error responses: Not Found
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,Validation Failed,422,Client error responses: Unprocessable Entity
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,Validation Failed,429,Client error responses: Too Many Requests
+ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d,DeLorean Out Of Gas,500,Server error responses: Internal Server Error

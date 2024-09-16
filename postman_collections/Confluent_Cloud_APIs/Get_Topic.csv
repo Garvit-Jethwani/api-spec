@@ -1,0 +1,8 @@
+include_authorized_operations,cluster_id,topic_name,statusCode,scenario
+false,cluster-1,topic-1,200,Successful responses: OK
+null,cluster-1,topic-2,400,Client error responses: Bad Request
+null,cluster-1,topic-3,401,Client error responses: Unauthorized
+null,cluster-1,topic-4,403,Client error responses: Forbidden
+null,cluster-1,topic-5,404,Client error responses: Not Found
+null,cluster-1,topic-6,429,Client error responses: Too Many Requests
+null,cluster-1,topic-7,500,Server error responses: Internal Server Error
