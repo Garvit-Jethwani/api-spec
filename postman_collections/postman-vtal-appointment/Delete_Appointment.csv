@@ -1,0 +1,16 @@
+appointmentReason,appointmentComments,appointmentId,statusCode,scenario
+"Cancelamento Checkout","Cancelamento Checkout",SA-562403,200,successful operation
+"Agendamento para Instalação de Fibra","Cancelamento Checkout",SA-562403,200,successful operation
+"Cancelamento Checkout","Agendamento para Instalação de Fibra",SA-562403,200,successful operation
+"Agendamento para Instalação de Fibra","Agendamento para Instalação de Fibra",SA-562403,200,successful operation
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,400,Bad Request
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,401,Unauthorized
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,403,"Forbidden - Scope Not Permitted"
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,404,Not Found
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,406,Not Acceptable
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,412,Not Acceptable
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,423,Locked
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,429,"Too Many Requests - Exceeded Quota"
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,500,Internal Server Error
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,503,Service Unavailable
+"!@#$%^&*()","!@#$%^&*()",SA-562403123456789,504,Gateway Timeout

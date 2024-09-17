@@ -1,0 +1,12 @@
+subscriberId,id,confirmation,statusCode,scenario
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"S\",\n    \"code\": 200,\n    \"message\": \"OK\"\n  }\n}",200,successful operation
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 400,\n    \"message\": \"Bad Request\"\n  }\n}",400,Bad Request
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 401,\n    \"message\": \"Unauthorized\"\n  }\n}",401,Unauthorized
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\"\n  }\n}",403,Forbidden - Scope Not Permitted
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 404,\n    \"message\": \"Not Found\"\n  }\n}",404,Not Found
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 406,\n    \"message\": \"Not Acceptable\"\n  }\n}",406,Not Acceptable
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 412,\n    \"message\": \"Precondition Failed\"\n  }\n}",412,Not Acceptable
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\"\n  }\n}",429,Too Many Requests - Exceeded Quota
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 500,\n    \"message\": \"Internal Server Error\"\n  }\n}",500,Internal Server Error
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 503,\n    \"message\": \"Service Unavailable\"\n  }\n}",503,Service Unavailable
+"VTAL001","bff13821-73c3-42cc-9327-b05c7df5a67f","{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\"\n  }\n}",504,Gateway Timeout
