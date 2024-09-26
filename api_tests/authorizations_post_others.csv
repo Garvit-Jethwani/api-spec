@@ -1,0 +1,11 @@
+email
+john.doe@example.com
+jane.doe@example.com
+invalid.email
+bob@example
+alice@.com
+empty@email.com
+null
+1234@numbers.com
+special@char$.com
+no@tld
