@@ -1,0 +1,11 @@
+jetson_uuid,username,clusterId,houseId
+123abc,JohnDoe,cluster1,house1
+456def,JaneDoe,cluster2,house2
+789ghi,JimBrown,cluster3,house3
+012jkl,JuliaSmith,cluster4,house4
+345lmn,LindaJohnson,cluster5,house5
+678opq,OliverJones,cluster6,house6
+901rst,RachelTaylor,cluster7,house7
+234uvw,VincentWhite,cluster8,house8
+567xyz,XavierGreen,cluster9,house9
+890abc,AbigailBlack,cluster10,house10

@@ -1,0 +1,11 @@
+jetson_uuid,status,timestamp
+3e97b131-a956-4e41-8aa6-c883c3db647b,active,2022-01-01T10:00:00Z
+a3f7b7f9-ea7e-4a38-8e30-3c9b79826e51,inactive,2022-01-02T12:00:00Z
+6b3a70d1-3d6a-4bd9-9a44-9a2a5d8b16e5,active,2022-01-03T14:00:00Z
+f8b3c6a1-31fd-4f4d-9cbe-5a2a8d8b16d7,inactive,2022-01-04T16:00:00Z
+e9c6d1a5-31fd-4f4d-9cbe-5a2a8d8b16d9,active,2022-01-05T18:00:00Z
+c9b6f1d9-31fd-4f4d-9cbe-5a2a8d8b16d1,inactive,2022-01-06T20:00:00Z
+d8a5f1d3-31fd-4f4d-9cbe-5a2a8d8b16d3,active,2022-01-07T22:00:00Z
+b7f4d1c3-31fd-4f4d-9cbe-5a2a8d8b16d5,inactive,2022-01-08T00:00:00Z
+a6e3c1b3-31fd-4f4d-9cbe-5a2a8d8b16d7,active,2022-01-09T02:00:00Z
+95d2b1a3-31fd-4f4d-9cbe-5a2a8d8b16d9,inactive,2022-01-10T04:00:00Z
