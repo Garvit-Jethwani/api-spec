@@ -1,0 +1,14 @@
+email
+john.doe@example.com
+jane.doe@unusualdomain.net
+noatsignoraddress
+@missinguserpart.com
+user@incomplete
+escaped\@email.com
+alice\@wonderland.com
+charlie.brown@peanuts
+skip.me@
+.valid@user.com
+user+profile@example.org
+unique\user@domain.com
+

@@ -1,0 +1,12 @@
+email
+john.doe@example.com
+jane.smith@example.com
+invalid_email.com
+email_with/slash@example.com
+"susan.o'neil"@example.com
+,,,
+missing@field.com
+double..dot@example.com
+spacey @example.com
+unique_value@example.com
+
