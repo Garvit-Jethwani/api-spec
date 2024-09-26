@@ -1,0 +1,11 @@
+id,did,name,image,email,settings,createdAt,updatedAt
+1a2b3c4d,1234,John Doe,https://example.com/johndoe.png,johndoe@example.com,"{""theme"":""light""}",2021-01-01T00:00:00,2021-01-02T00:00:00
+2b3c4d5e,2345,Jane Doe,https://example.com/janedoe.png,janedoe@example.com,"{""theme"":""dark""}",2021-01-03T00:00:00,2021-01-04T00:00:00
+3c4d5e6f,3456,Jim Doe,https://example.com/jimdoe.png,jimdoe@example.com,"{""theme"":""light""}",2021-01-05T00:00:00,2021-01-06T00:00:00
+4d5e6f7g,4567,Janet Doe,https://example.com/janetdoe.png,janetdoe@example.com,"{""theme"":""dark""}",2021-01-07T00:00:00,2021-01-08T00:00:00
+5e6f7g8h,5678,Jack Doe,https://example.com/jackdoe.png,jackdoe@example.com,"{""theme"":""light""}",2021-01-09T00:00:00,2021-01-10T00:00:00
+6f7g8h9i,6789,Jill Doe,https://example.com/jilldoe.png,jilldoe@example.com,"{""theme"":""dark""}",2021-01-11T00:00:00,2021-01-12T00:00:00
+7g8h9i10,7890,Joe Doe,https://example.com/joedoe.png,joedoe@example.com,"{""theme"":""light""}",2021-01-13T00:00:00,2021-01-14T00:00:00
+8h9i10j1,8901,Jessica Doe,https://example.com/jessicadoe.png,jessicadoe@example.com,"{""theme"":""dark""}",2021-01-15T00:00:00,2021-01-16T00:00:00
+9i10j1k2,9012,Jeremy Doe,https://example.com/jeremydoe.png,jeremydoe@example.com,"{""theme"":""light""}",2021-01-17T00:00:00,2021-01-18T00:00:00
+10j1k2l3,0123,Jasmine Doe,https://example.com/jasminedoe.png,jasminedoe@example.com,"{""theme"":""dark""}",2021-01-19T00:00:00,2021-01-20T00:00:00

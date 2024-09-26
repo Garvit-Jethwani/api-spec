@@ -1,0 +1,11 @@
+name,image,settings
+John Doe,data:image/jpeg;base64,ABCD1234,{ "theme": "dark", "notifications": "on" }
+Jane Smith,data:image/jpeg;base64,EFGH5678,{ "theme": "light", "notifications": "off" }
+Mark Johnson,data:image/jpeg;base64,IJKL9012,{ "theme": "dark", "notifications": "on" }
+Emily Davis,data:image/jpeg;base64,MNOP3456,{ "theme": "light", "notifications": "off" }
+Robert Brown,data:image/jpeg;base64,QRST7890,{ "theme": "dark", "notifications": "on" }
+Jessica Taylor,data:image/jpeg;base64,UVWX1234,{ "theme": "light", "notifications": "off" }
+Michael Miller,data:image/jpeg;base64,YZAB5678,{ "theme": "dark", "notifications": "on" }
+Sarah Wilson,data:image/jpeg;base64,CDEF9012,{ "theme": "light", "notifications": "off" }
+William Moore,data:image/jpeg;base64,GHIJ3456,{ "theme": "dark", "notifications": "on" }
+Laura Thompson,data:image/jpeg;base64,KLMN7890,{ "theme": "light", "notifications": "off" }
