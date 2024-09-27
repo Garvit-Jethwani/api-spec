@@ -1,0 +1,11 @@
+id,did,name,image,email,settings,createdAt,updatedAt
+1,10,John Doe,https://example.com/image1.jpg,johndoe@example.com,{'theme':'light','notifications':'on'},2023-01-01T00:00:00Z,2023-01-02T00:00:00Z
+2,11,Jane Smith,https://example.com/image2.jpg,janesmith@example.com,{'theme':'dark','notifications':'off'},2023-01-02T00:00:00Z,2023-01-03T00:00:00Z
+3,12,Alice Johnson,https://example.com/image3.jpg,alicejohnson@example.com,{'theme':'light','notifications':'on'},2023-01-03T00:00:00Z,2023-01-04T00:00:00Z
+4,13,Bob Brown,https://example.com/image4.jpg,bobbrown@example.com,{'theme':'dark','notifications':'off'},2023-01-04T00:00:00Z,2023-01-05T00:00:00Z
+5,14,Charlie Davis,https://example.com/image5.jpg,charliedavis@example.com,{'theme':'light','notifications':'on'},2023-01-05T00:00:00Z,2023-01-06T00:00:00Z
+6,15,Donna Evans,https://example.com/image6.jpg,donnaevans@example.com,{'theme':'dark','notifications':'off'},2023-01-06T00:00:00Z,2023-01-07T00:00:00Z
+7,16,Edward Fox,https://example.com/image7.jpg,edwardfox@example.com,{'theme':'light','notifications':'on'},2023-01-07T00:00:00Z,2023-01-08T00:00:00Z
+8,17,Fiona Green,https://example.com/image8.jpg,fionagreen@example.com,{'theme':'dark','notifications':'off'},2023-01-08T00:00:00Z,2023-01-09T00:00:00Z
+9,18,George Harris,https://example.com/image9.jpg,georgeharris@example.com,{'theme':'light','notifications':'on'},2023-01-09T00:00:00Z,2023-01-10T00:00:00Z
+10,19,Hannah Irvine,https://example.com/image10.jpg,hannahirvine@example.com,{'theme':'dark','notifications':'off'},2023-01-10T00:00:00Z,2023-01-11T00:00:00Z
