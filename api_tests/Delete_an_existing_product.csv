@@ -1,0 +1,11 @@
+productId,urlApiSpecDetails.path,urlApiSpecDetails.methodType,urlApiSpecDetails.parameters.productId,urlApiSpecDetails.responses.200.id,urlApiSpecDetails.responses.200.name,urlApiSpecDetails.responses.200.description,urlApiSpecDetails.responses.200.price,urlApiSpecDetails.responses.404
+1,/products/1,get,1,1,Product1,This is product 1,100,Product not found
+2,/products/2,get,2,2,Product2,This is product 2,200,Product not found
+3,/products/3,get,3,3,Product3,This is product 3,300,Product not found
+4,/products/4,get,4,4,Product4,This is product 4,400,Product not found
+5,/products/5,get,5,5,Product5,This is product 5,500,Product not found
+6,/products/6,get,6,6,Product6,This is product 6,600,Product not found
+7,/products/7,get,7,7,Product7,This is product 7,700,Product not found
+8,/products/8,get,8,8,Product8,This is product 8,800,Product not found
+9,/products/9,get,9,9,Product9,This is product 9,900,Product not found
+10,/products/10,get,10,10,Product10,This is product 10,1000,Product not found
