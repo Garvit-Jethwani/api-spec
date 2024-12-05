@@ -1,0 +1,60 @@
+Here are the comprehensive test scenarios for the given user story description:
+
+Functional Test Cases:
+
+1. Credit Card Application:
+   - Test Case 1:
+     - Input: Valid personal, income, and contact information
+     - Action: Submit credit card application
+     - Expected Output: Application submitted successfully
+   - Test Case 2:
+     - Input: Invalid or incomplete information
+     - Action: Submit credit card application
+     - Expected Output: Error message displayed requesting valid or missing information
+
+2. Waiving Off Charges:
+   - Test Case 3:
+     - Input: Request to waive off an unexpected fee
+     - Action: Review customer's history and decide to waive off the charges
+     - Expected Output: Charges waived, and updated balance reflects on the account
+
+3. Redeeming Points:
+   - Test Case 4:
+     - Input: Valid request to redeem points
+     - Action: Redeem points for specified benefits
+     - Expected Output: Rewards claimed successfully, and points balance updated
+
+4. Credit Limit Extension:
+   - Test Case 5:
+     - Input: Evaluate customer's creditworthiness, payment history, and income stability
+     - Action: Decide to increase the credit limit
+     - Expected Output: Credit limit increased, and customer notified
+
+5. Credit Limit Reduction:
+   - Test Case 6:
+     - Input: Negative changes in customer's financial situation or risk profile
+     - Action: Decide to reduce the credit limit
+     - Expected Output: Credit limit reduced, and customer notified
+
+6. Promotional Balance Transfers:
+   - Test Case 7:
+     - Input: Submit request to transfer balance
+     - Action: Apply promotional offer to balance transfer
+     - Expected Output: Balance transferred successfully under promotional offer terms
+
+Non-Functional Test Cases:
+
+- Test Case 8: Check the system's response time when a user applies for a credit card
+- Test Case 9: Verify the banking system's ability to handle multiple credit card applications simultaneously
+- Test Case 10: Check the system's behavior when the connection is lost during the credit card application process
+- Test Case 11: Verify if secure protocols are used while entering and storing personal and financial data
+- Test Case 12: Check the system's behavior when the maximum number of attempts for unsuccessful credit card applications is reached
+- Test Case 13: Verify that the system sends email or SMS notifications upon successful completion of actions (Fee Waiving, Points Redemption, Credit Limit Update)
+- Test Case 14: Verify data integrity while transferring balance from one card to another under a promotional offer
+
+Suggestions/Comments:
+- Consider testing the integration with credit bureau APIs for credit limit extension and reduction scenarios
+- Test the system's ability to handle high volumes of transactions during peak hours
+- Verify the security measures in place to protect sensitive customer information
+- Ensure compliance with relevant banking regulations and standards
+- Test the user interface and user experience across different devices and browsers
