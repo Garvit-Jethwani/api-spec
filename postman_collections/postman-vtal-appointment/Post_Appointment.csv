@@ -1,0 +1,13 @@
+id,reason,statusCode,scenario
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Agendamento para Instalação de Fibra",201,"successful operation"
+"a1b2c3d4-e5f6-4a5b-9c8d-7e6f5a4b3c2d","Invalid request format",400,"Bad Request"
+"9876543210abcdef0123456789abcdef","Missing authentication token",401,"Unauthorized"
+"fedcba9876543210fedcba9876543210","Insufficient permissions",403,"Forbidden - Scope Not Permitted"
+"1234567890abcdef1234567890abcdef","Resource not found",404,"Not Found"
+"abcdef1234567890abcdef1234567890","Unsupported media type",406,"Not Acceptable"
+"0123456789abcdef0123456789abcdef","Precondition not met",412,"Not Acceptable"
+"zyxwvutsrqponmlkjihgfedcba98765","Appointment locked for editing",423,"Locked"
+"qwertyuiopasdfghjklzxcvbnm12345","Rate limit exceeded",429,"Too Many Requests - Exceeded Quota"
+"mnbvcxzlkjhgfdsapoiuytrewq98765","Unexpected server error",500,"Internal Server Error"
+"lmnopqrstuvwxyz1234567890abcdef","Service temporarily unavailable",503,"Service Unavailable"
+"abcdefghijklmnopqrstuvwxyz12345","Request timeout",504,"Gateway Timeout"

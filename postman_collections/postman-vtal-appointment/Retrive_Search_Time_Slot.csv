@@ -1,0 +1,12 @@
+addressId,subscriberId,associatedDocument,startDate,finishDate,orderType,addressChangeFlag,productType,priorityFlag,priorityReason,statusCode,scenario
+"8c2c93c7-4621-4830-b384-0d12bb33eedf","bff13821-73c3-42cc-9327-b05c7df5a67f","6cbace1a-7eda-4093-9619-09e571e742b0","2021-05-30T08:00:00","2021-05-30T12:00:00","standard","true","residential","false","none",200,success
+"ABC123","XYZ789","DOC456","2023-01-01T00:00:00","2023-12-31T23:59:59","invalid","maybe","unknown","maybe","invalid reason",400,"Bad Request"
+"ID001","SUB002","DOC003","2022-13-32T25:61:61","2022-02-30T00:00:00","urgent","false","commercial","true","urgent",401,Unauthorized
+"ADDR1","SUBS2","DOC3","2023-06-15T12:00:00","2023-06-14T12:00:00","express","yes","industrial","no","none",403,"Forbidden - Scope Not Permitted"
+"A1B2C3","X1Y2Z3","D1O2C3","2023-02-29T00:00:00","2023-02-28T23:59:59","standard","1","mixed","0","low priority",404,"Not Found"
+"ADDRID1","SUBID1","DOCID1","2023-07-01T00:00:00","2023-06-30T23:59:59","regular","true","unknown","false","none",406,"Not Acceptable"
+"ID-001","SUB-001","DOC-001","2023-01-01T00:00:00","2022-12-31T23:59:59","urgent","no","residential","yes","high priority",412,"Not Acceptable"
+"ADDR-001","SUBS-001","DOC-001","2023-12-31T23:59:59","2024-01-01T00:00:00","express","false","commercial","true","critical",429,"Too Many Requests - Exceeded Quota"
+"ADDRESS1","SUBSCRIBER1","DOCUMENT1","2023-06-31T00:00:00","2023-07-01T00:00:00","standard","yes","industrial","no","medium",500,"Internal Server Error"
+"ADDRID-001","SUBID-001","DOCID-001","2023-02-30T00:00:00","2023-03-01T00:00:00","regular","1","mixed","0","low",503,"Service Unavailable"
+"A1D2R3","S1U2B3","D1O2C3","2023-04-31T00:00:00","2023-05-01T00:00:00","urgent","true","unknown","false","none",504,"Gateway Timeout"

@@ -1,0 +1,12 @@
+subscriberId,id,confirmation,statusCode,scenario
+"SUB123456","bff13821-73c3-42cc-9327-b05c7df5a67f",true,200,"successful operation"
+"SUB789012","invalid-id",false,400,"Bad Request"
+"SUB345678","12345678901234567890123456789012345678",true,401,"Unauthorized"
+"SUB901234","a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",false,403,"Forbidden - Scope Not Permitted"
+"SUB567890","qwertyuiopasdfghjklzxcvbnm1234567890",true,404,"Not Found"
+"SUB234567","!@#$%^&*()_+{}[]|\\:;\"'<>,.?/~`",false,406,"Not Acceptable"
+"SUB890123","abcdefghijklmnopqrstuvwxyz0123456789",true,412,"Not Acceptable"
+"SUB456789","ABCDEFGHIJKLMNOPQRSTUVWXYZ9876543210",false,429,"Too Many Requests - Exceeded Quota"
+"SUB012345","0123456789abcdefghijklmnopqrstuvwxyz",true,500,"Internal Server Error"
+"SUB678901","9876543210ZYXWVUTSRQPONMLKJIHGFEDCBA",false,503,"Service Unavailable"
+"SUB234567","aA1bB2cC3dD4eE5fF6gG7hH8iI9jJ0kK1lL2",true,504,"Gateway Timeout"
