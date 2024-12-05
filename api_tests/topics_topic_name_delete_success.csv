@@ -1,0 +1,11 @@
+cluster_id,topic_name
+1,SalesData
+2,ProductInfo
+3,CustomerFeedback
+4,EmployeeRecords
+5,MarketAnalysis
+6,FinancialReports
+7,InventoryManagement
+8,OrderDetails
+9,ShippingInfo
+10,PromotionStrategy

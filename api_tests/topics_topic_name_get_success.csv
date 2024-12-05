@@ -1,0 +1,11 @@
+cluster_id,topic_name,include_authorized_operations
+12345,topic_1,true
+67890,topic_2,false
+11121,topic_3,true
+31415,topic_4,false
+16180,topic_5,true
+27182,topic_6,false
+71828,topic_7,true
+18284,topic_8,false
+53421,topic_9,true
+97932,topic_10,false

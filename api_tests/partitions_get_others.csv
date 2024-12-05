@@ -1,0 +1,11 @@
+cluster_id,topic_name
+1,User_Registration
+2,Product_Purchase
+3,User_Login
+4,Product_View
+5,Cart_Update
+6,Product_Rating
+7,Product_Review
+8,User_Logout
+9,User_Feedback
+10,Product_Return

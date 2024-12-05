@@ -1,0 +1,11 @@
+cluster_id,topic_name,include_authorized_operations
+1,topic1,true
+2,topic2,false
+3,topic3,true
+4,topic4,false
+5,topic5,true
+6,topic6,false
+7,topic7,true
+8,topic8,false
+9,topic9,true
+10,topic10,false
