@@ -1,0 +1,12 @@
+subscriberId,id,confirmation,statusCode,scenario
+1234567890,"f7b5d5e5-1b5f-4b0f-8c1c-1a1a1a1a1a1a",true,200,successful operation
+1234567890,"invalid-id-value",false,400,Bad Request
+1234567890,"invalid-id-value",false,401,Unauthorized
+1234567890,"invalid-id-value",false,403,Forbidden - Scope Not Permitted
+1234567890,"invalid-id-value",false,404,Not Found
+1234567890,"invalid-id-value",false,406,Not Acceptable
+1234567890,"invalid-id-value",false,412,Precondition Failed
+1234567890,"invalid-id-value",false,429,Too Many Requests - Exceeded Quota
+1234567890,"invalid-id-value",false,500,Internal Server Error
+1234567890,"invalid-id-value",false,503,Service Unavailable
+1234567890,"invalid-id-value",false,504,Gateway Timeout

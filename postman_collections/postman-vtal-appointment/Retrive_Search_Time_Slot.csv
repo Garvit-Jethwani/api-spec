@@ -1,0 +1,15 @@
+addressId,subscriberId,associatedDocument,startDate,finishDate,orderType,addressChangeFlag,productType,priorityFlag,priorityReason,statusCode,scenario
+"8c2c93c7-4621-4830-b384-0d12bb33eedf","3333333","8c2c93c7-4621-4830-b384-0d12bb33eedf","2021-05-30T08:00:00","2021-05-30T12:00:00","Delivery","Y","Package","Y","Urgent",200,success
+"bff13821-73c3-42cc-9327-b05c7df5a67f","4444444","bff13821-73c3-42cc-9327-b05c7df5a67f","2021-05-30T13:00:00","2021-05-30T18:00:00","Pickup","N","Letter","N","Regular",200,success
+"6cbace1a-7eda-4093-9619-09e571e742b0","5555555","6cbace1a-7eda-4093-9619-09e571e742b0","2021-05-31T08:00:00","2021-05-31T12:00:00","Return","Y","Parcel","Y","Express",200,success
+"0b78aee7-2e4f-4c0a-852c-5a4845564aff","6666666","0b78aee7-2e4f-4c0a-852c-5a4845564aff","2021-05-31T13:00:00","2021-05-31T18:00:00","Service","N","Box","N","Standard",200,success
+"dummyId1","invalidSubId1","dummyDocId1","invalidDate1","invalidDate2","invalidType1","invalidFlag1","invalidProduct1","invalidPriorityFlag1","invalidReason1",400,"Bad Request"
+"dummyId2","invalidSubId2","dummyDocId2","invalidDate3","invalidDate4","invalidType2","invalidFlag2","invalidProduct2","invalidPriorityFlag2","invalidReason2",401,Unauthorized
+"dummyId3","invalidSubId3","dummyDocId3","invalidDate5","invalidDate6","invalidType3","invalidFlag3","invalidProduct3","invalidPriorityFlag3","invalidReason3",403,"Forbidden - Scope Not Permitted"
+"dummyId4","invalidSubId4","dummyDocId4","invalidDate7","invalidDate8","invalidType4","invalidFlag4","invalidProduct4","invalidPriorityFlag4","invalidReason4",404,"Not Found"
+"dummyId5","invalidSubId5","dummyDocId5","invalidDate9","invalidDate10","invalidType5","invalidFlag5","invalidProduct5","invalidPriorityFlag5","invalidReason5",406,"Not Acceptable"
+"dummyId6","invalidSubId6","dummyDocId6","invalidDate11","invalidDate12","invalidType6","invalidFlag6","invalidProduct6","invalidPriorityFlag6","invalidReason6",412,"Not Acceptable"
+"dummyId7","invalidSubId7","dummyDocId7","invalidDate13","invalidDate14","invalidType7","invalidFlag7","invalidProduct7","invalidPriorityFlag7","invalidReason7",429,"Too Many Requests - Exceeded Quota"
+"dummyId8","invalidSubId8","dummyDocId8","invalidDate15","invalidDate16","invalidType8","invalidFlag8","invalidProduct8","invalidPriorityFlag8","invalidReason8",500,"Internal Server Error"
+"dummyId9","invalidSubId9","dummyDocId9","invalidDate17","invalidDate18","invalidType9","invalidFlag9","invalidProduct9","invalidPriorityFlag9","invalidReason9",503,"Service Unavailable" 
+"dummyId10","invalidSubId10","dummyDocId10","invalidDate19","invalidDate20","invalidType10","invalidFlag10","invalidProduct10","invalidPriorityFlag10","invalidReason10",504,"Gateway Timeout"

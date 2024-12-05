@@ -1,0 +1,13 @@
+id,reason,statusCode,scenario
+"bff13821-73c3-42cc-9327-b05c7df5a67f","Agendamento para Instalação de Fibra",201,successful operation
+"3a1f9f66-1b7e-4b3c-8c0f-9d5f4e6c7b8a","\"Invalid reason with quotes\"",400,Bad Request
+"2b0e8d55-0d4c-47a9-b1a0-8c6d3e4f5g6h","\"Invalid reason with quotes\"",401,Unauthorized
+"1c9d7e44-9e3b-4698-a099-7b5c2d3e1f0g","\"Invalid reason with quotes\"",403,Forbidden - Scope Not Permitted
+"0b8c6d33-8d2a-4587-9f88-6a4b1c0d9e8f","\"Invalid reason with quotes\"",404,Not Found
+"fa7b5c22-6c1a-4476-8d77-5a3b0c9d8e7f","\"Invalid reason with quotes\"",406,Not Acceptable
+"e96a4b11-5b0a-4365-7c66-4a2b9c8d7e6f","\"Invalid reason with quotes\"",412,Not Acceptable
+"d85a3a00-4a99-4254-6b55-3a1b8c7d6e5f","\"Invalid reason with quotes\"",423,Locked
+"c74a2999-3988-4143-5a44-2a0b7c6d5e4f","\"Invalid reason with quotes\"",429,Too Many Requests - Exceeded Quota
+"b63a1888-2877-4032-4933-1a9a6b5c4d3e","\"Invalid reason with quotes\"",500,Internal Server Error
+"a52a0777-1766-4921-3822-0a8a5b4c3d2e","\"Invalid reason with quotes\"",503,Service Unavailable
+"941a9666-0655-4810-2711-9a7a4b3c2d1e","\"Invalid reason with quotes\"",504,Gateway Timeout
